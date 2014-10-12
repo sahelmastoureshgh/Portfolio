@@ -5,13 +5,82 @@ body{
 }
 .text-muted{
 	color:#BCBBBB;
+
 }
 .text-thin{
 	font-weight:100;
 }
 .title-super{
 	font-size:60px;
+
 }
 .title-logo{
 	margin-top:20px;
+
 }
+h3:hover,p:hover{
+	font-size:40px;
+}
+
+
+.break {
+  border: none;
+  height: .4em;
+  background: #bcbbbb;
+  margin-bottom: 30px;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+.featured-image-left{
+	margin-left: -28px !important;
+	
+}
+.featured-image-middle{
+	padding-left: 66px!important;
+
+}
+
+.featured-image-right{
+	margin-left: 24px !important;
+    padding-left: 71px!important;
+
+}
+
+
+
+}
+
+/* Landscape phones*/
+@media (max-width: 480px) { 
+img{
+	center-block;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color:#747704;
+	font-weight:50;
+}
+.text-muted{
+	text-align:center;
+	font-weight:20;
+}
+.title-logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+	text-align:center;
+	font-weight:15;
+}
+.title-super{
+	text-align:center;
+	font-size:30px;
+
+}
+
+}
+
